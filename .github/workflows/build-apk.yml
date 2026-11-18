@@ -22,7 +22,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Crea progetto Capacitor e Android
+      - name: Crea package.json e installa Capacitor
         run: |
           rm -f www/placeholder.txt
           npm init -y
