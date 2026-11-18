@@ -1,0 +1,6 @@
+ORTO 2.0 - VERSIONE 47
+- Aggiunta la sezione Consociazioni nella griglia principale.
+- La guida consente di selezionare tutte le 83 colture presenti nell'enciclopedia.
+- Per ogni coltura mostra buone compagne, abbinamenti da gestire con cautela e colture della stessa famiglia.
+- Indicazioni orientative, con nota sui limiti delle evidenze e sull'importanza di rotazione, distanze, luce e acqua.
+- Nessuna modifica al calendario delle semine e dei trapianti.

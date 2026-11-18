@@ -1,0 +1,3 @@
+ORTO 2.0 - VERSIONE 37
+
+Nella sezione Meteo agricolo è stata rimossa la scritta di errore “Meteo non disponibile”. In caso di mancato caricamento, il messaggio non viene mostrato.

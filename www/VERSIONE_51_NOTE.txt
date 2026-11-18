@@ -1,0 +1,10 @@
+ORTO 2.0 - VERSIONE 51
+
+Nuova sezione personale “I miei fitofarmaci” in ogni scheda di malattia/avversità.
+- Possibilità di aggiungere più prodotti per la stessa malattia e coltura.
+- Campi: nome commerciale, principio attivo, dose e unità, tempo di carenza, numero massimo di trattamenti, intervallo e note personali.
+- Possibilità di modificare o eliminare ogni scheda.
+- Salvataggio locale sul dispositivo tramite memoria del browser; nessun invio a server.
+- I dati sono inseriti dall’utente: ORTO 2.0 non precompila né verifica autorizzazioni, dosi o tempi di carenza. Consultare sempre l’etichetta vigente del prodotto per la coltura e l’avversità specifiche.
+
+Cache aggiornata a orto20-v51.

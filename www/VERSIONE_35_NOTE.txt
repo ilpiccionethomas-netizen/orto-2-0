@@ -1,0 +1,11 @@
+ORTO 2.0 · VERSIONE 35
+
+ACCESSI RAPIDI SEMPRE VISIBILI
+- La griglia compatta delle 12 sezioni è stata spostata fuori dalla sola Home.
+- Rimane quindi visibile anche quando si apre Meteo, Luna, Salute, Orto, Potature e ogni altra pagina.
+- La griglia resta compatta a tre colonne su iPhone e quattro su schermi più larghi.
+- La sezione attiva viene evidenziata per riconoscere subito dove ci si trova.
+- La griglia resta in posizione sticky durante lo scorrimento, sotto la barra di navigazione.
+- Aggiornata la cache del service worker a orto20-v35.
+
+La versione non è stata pubblicata online.

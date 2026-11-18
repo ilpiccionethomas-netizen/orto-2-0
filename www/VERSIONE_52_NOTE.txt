@@ -1,0 +1,3 @@
+ORTO 2.0 – VERSIONE 52
+Home: promemoria della tradizione ligure di San Paolo (29 giugno) e San Lorenzo (10 agosto).
+Mostra per l'anno corrente il giorno della settimana di entrambe le ricorrenze e indica il giorno settimanale di riferimento secondo San Lorenzo. Si aggiorna automaticamente ogni anno.

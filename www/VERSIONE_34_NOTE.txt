@@ -1,0 +1,10 @@
+ORTO 2.0 · VERSIONE 34
+
+HOME CON ACCESSI RAPIDI COMPATTI
+- Aggiunta una griglia compatta a tre colonne su iPhone con accesso diretto a tutte le 12 sezioni principali.
+- Ogni riquadro mostra icona e nome breve, con dimensioni contenute per lasciare spazio ai contenuti della Home.
+- Su schermi più larghi la griglia passa a quattro colonne.
+- Gli accessi rapidi usano la navigazione esistente e aprono le rispettive sezioni.
+- Aggiornata la cache del service worker a orto20-v34.
+
+La versione non è stata pubblicata online.

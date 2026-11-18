@@ -1,0 +1,10 @@
+ORTO 2.0 - VERSIONE 29
+
+Calendario e schede colture ampliati per l'orto hobbistico.
+- Aggiunta per tutte le 83 colture una scheda varietale con tipologie o varietà da valutare.
+- Indicata la modalità di avvio: semenzaio protetto, semina diretta o impianto con materiale vegetativo, in base alle indicazioni disponibili per la coltura.
+- Aggiunta l'indicazione dell'ambiente consigliato: pieno campo, tunnel o serra, con note pratiche quando la protezione è utile.
+- Mantenute le finestre mensili indicative del calendario, da adattare a quota, microclima e varietà.
+- Le varietà elencate sono esempi di tipologie: verificare sempre disponibilità, ciclo, resistenze e adattamento locale sulla confezione del seme.
+- La serra non è automaticamente consigliata per tutte le colture; dove non utile viene indicato il pieno campo.
+- Non pubblicata su Netlify.

@@ -1,0 +1,9 @@
+ORTO 2.0 – VERSIONE 46
+
+RICORRENZE DELLA TRADIZIONE CRISTIANA
+- Inserita una scheda in Home che compare soltanto nella data esatta della ricorrenza.
+- Giorni dei Santi e dei Defunti: 1 e 2 novembre.
+- Venerdì Santo: data mobile calcolata dalla Pasqua.
+- Quattro Tempora: mercoledì, venerdì e sabato dei quattro periodi tradizionali dell’anno, con date calcolate per ogni anno.
+- La scheda è informativa e chiarisce che si tratta di tradizione popolare/religiosa, non di un divieto agricolo.
+- Nessuna modifica a semine, trapianti o finestre colturali.

@@ -1,0 +1,3 @@
+ORTO 2.0 - VERSIONE 41
+
+Ripristinato l'accesso alla Home nella barra degli accessi rapidi persistenti. Aggiunto il riquadro Home, che permette di tornare alla prima pagina da qualsiasi sezione. Nessuna scheda o dato esistente rimosso.

@@ -1,0 +1,4 @@
+ORTO 2.0 – VERSIONE 45
+
+- Rimossa dalla Home la scheda duplicata “Il consiglio di oggi”, che riproponeva informazioni lunari già disponibili nella sezione Luna.
+- Le funzioni interne e la sezione Luna dedicata restano invariate.

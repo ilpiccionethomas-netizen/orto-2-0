@@ -1,0 +1,9 @@
+ORTO 2.0 - VERSIONE 40
+
+Promemoria cambio collare:
+- Inserendo la data del cambio collare, la prossima scadenza viene calcolata automaticamente a 6 mesi.
+- La scadenza viene mostrata nella scheda dell'animale.
+- Nella pagina Animali compare un promemoria quando la scadenza arriva, è passata o mancano al massimo 30 giorni.
+- La scadenza è un promemoria gestionale: per i collari antiparassitari valgono sempre durata e indicazioni veterinarie/prodotto.
+
+I dati restano salvati localmente nel browser. Nessuna pubblicazione online.

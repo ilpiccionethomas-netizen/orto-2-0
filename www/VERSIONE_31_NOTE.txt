@@ -1,0 +1,10 @@
+ORTO 2.0 - VERSIONE 31
+
+Correzione pannello rischi meteo 72 ore:
+- Risolto l'accumulo di tutte le letture orarie nella descrizione di una singola scheda.
+- Le condizioni favorevoli a malattie fungine mostrano un riepilogo compatto dell'intervallo di umidità e temperatura.
+- Le altre criticità mantengono una descrizione sintetica, senza concatenare decine di valori.
+- Rimane indicato il primo orario in cui compare il rischio.
+- Aggiornata la cache del service worker a orto20-v31.
+
+Le previsioni sono indicatori modellistici e non allerte ufficiali.

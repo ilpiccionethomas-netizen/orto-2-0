@@ -1,0 +1,5 @@
+ORTO 2.0 - VERSIONE 39
+
+Aggiunta la sezione Animali con schede per cane, gatto, coniglio, uccello, gallina e altri animali. Per ogni animale si possono registrare nome, tipo, razza/note, data di acquisto o adozione, vaccinazione e prossima scadenza, collare e data del prossimo cambio/controllo. I dati vengono salvati localmente nel browser.
+
+Le informazioni veterinarie e le scadenze sono promemoria personali: per vaccinazioni e prodotti antiparassitari fare riferimento al veterinario.

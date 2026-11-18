@@ -1,0 +1,1 @@
+ORTO 2.0 - VERSIONE 43\n\nHome: i tre proverbi giornalieri vengono filtrati per eliminare eventuali duplicati testuali (ignorando maiuscole e spazi ripetuti). La selezione mostra fino a tre proverbi distinti e non ripete la stessa voce nella giornata.\n

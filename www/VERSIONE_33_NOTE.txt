@@ -1,0 +1,13 @@
+ORTO 2.0 – VERSIONE 33
+Potature: approfondimento tecnico professionale.
+
+Novità:
+- Approfondimento specifico per le 17 specie/gruppi già presenti.
+- Riconoscimento e gestione del legno fruttifero, dove pertinente.
+- Criteri di selezione delle branche, rinnovo e contenimento della vigoria.
+- Sequenza operativa di potatura.
+- Scelta degli attrezzi, qualità dei tagli e taglio in tre tempi per branche pesanti.
+- Richiamo alle differenze tra forme di allevamento e tipologie di fruttificazione.
+- Cache service worker aggiornata a orto20-v33.
+
+Le indicazioni sono orientative: la tecnica va adattata a cultivar, età, forma di allevamento, clima e stato sanitario.

@@ -1,0 +1,4 @@
+ORTO 2.0 - VERSIONE 49
+- Gli accessi rapidi della Home non sono più sticky/fissi durante lo scorrimento.
+- Le icone scorrono normalmente insieme al contenuto della pagina.
+- Nessuna modifica alle funzioni o alle altre sezioni.

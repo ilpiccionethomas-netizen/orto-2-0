@@ -1,0 +1,5 @@
+ORTO 2.0 - VERSIONE 48
+- Corretto il menu di navigazione: la sezione Consociazioni era esclusa dall'elenco delle schede gestite da switchTab e quindi restava nascosta.
+- Aggiunta la scheda Consociazioni alla navigazione effettiva.
+- Aggiornata la cache del service worker.
+- Restano invariate le 83 colture e tutte le altre funzioni.

@@ -1,0 +1,21 @@
+ORTO 2.0 - VERSIONE 27 - METEO MIGLIORATO E CALENDARIO ANNUALE COMPLETO
+
+Miglioramenti meteo:
+- Previsioni settimanali ridisegnate in schede giornaliere scorrevoli su iPhone, con icona/descrizione del tempo, massima/minima, pioggia, probabilità e vento.
+- Le previsioni a 7 giorni compaiono in una sola sezione; le allerte restano separate e riguardano le prossime 72 ore.
+- Pannello allerte riorganizzato con livello di rischio, prima occorrenza prevista, dettaglio e azione pratica.
+- Controlli per gelata, caldo intenso, pioggia intensa, raffiche, temporali e codici associati a possibile grandine, condizioni favorevoli a malattie fungine e periodo asciutto/caldo.
+- Riepilogo dei millimetri di pioggia e della raffica massima prevista nelle 72 ore.
+- Precisato che gli indicatori non sono allerte ufficiali e che la grandine locale non è garantita dai modelli.
+- L'aggiornamento dei consigli idrici usa il meteo del Comune, senza richiedere GPS.
+
+Calendario annuale:
+- Corretto un errore JavaScript che impediva il disegno dei mesi (variabili monthCodes e m non definite).
+- Ricostruita la panoramica per tutti i 12 mesi, con semine/impianti, trapianti e raccolte.
+- Corretto il riconoscimento degli intervalli mensili, anche quando attraversano dicembre/gennaio o indicano l'inverno.
+- Aggiunto filtro per coltura e riepilogo del mese selezionato.
+- Le voci derivano dal catalogo delle colture già presente; le finestre restano indicative per il Nord Italia e vanno adattate a varietà, quota e microclima.
+
+Tecnico:
+- Cache service worker aggiornata a orto20-v27 per evitare di mantenere i file precedenti.
+- Verificata la sintassi JavaScript dei file modificati.

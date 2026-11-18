@@ -1,0 +1,14 @@
+ORTO 2.0 - VERSIONE 23 - GUIDA SALUTE DELL’ORTO
+
+Questa versione sostituisce la precedente proposta con diagnosi fotografica: NON contiene caricamento foto dell’utente, analisi AI, API o funzioni Netlify server-side.
+
+Novità:
+- fotografie statiche esemplificative nelle schede fitosanitarie;
+- controlli pratici per distinguere sintomi simili;
+- prevenzione e interventi agronomici;
+- indicazioni per hobbisti: cercare prodotti PFnPE specificamente autorizzati per coltura e avversità;
+- rimossi marchi, dosi e tempi di carenza preimpostati, che potrebbero non essere validi per ogni etichetta.
+
+Per ortaggi destinati all’autoconsumo usare solo prodotti con dicitura PFnPE e rispettare integralmente l’etichetta vigente. PFnPO è riservato alle ornamentali. Verificare autorizzazioni nella banca dati del Ministero della Salute.
+
+La guida è orientativa e non sostituisce una diagnosi professionale.

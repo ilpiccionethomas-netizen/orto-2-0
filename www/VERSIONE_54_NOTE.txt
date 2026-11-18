@@ -1,0 +1,4 @@
+ORTO 2.0 – Versione 54
+Home: giorni della settimana di San Paolo (29 giugno) e San Lorenzo (10 agosto) evidenziati in modo ben visibile.
+La regola delle sementi viene calcolata automaticamente per l'anno corrente e mostra anche il giorno dell'anno successivo.
+Il giorno non è fisso: nel 2026 è lunedì, nel 2027 è martedì e cambia automaticamente negli anni successivi.

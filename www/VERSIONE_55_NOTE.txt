@@ -1,0 +1,3 @@
+ORTO 2.0 – Versione 55
+Correzione calendario sementi: script autonomo nella pagina calcola e visualizza i giorni della settimana per San Paolo (29 giugno) e San Lorenzo (10 agosto) per l’anno corrente; mostra anche il giorno dell’anno successivo.
+Service worker aggiornato con cache v55, attivazione immediata, eliminazione delle vecchie cache e strategia rete-prima per evitare file obsoleti.

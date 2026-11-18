@@ -1,0 +1,11 @@
+ORTO 2.0 - VERSIONE 30
+
+Migliorie:
+- Pannello rischi meteo 72 ore ridisegnato per iPhone con riepilogo visivo, stato sintetico, tre valori sempre accompagnati da unità e descrizione e schede rischio più leggibili.
+- Le condizioni temporalesche non mostrano più i codici numerici del modello: ora compare una descrizione comprensibile.
+- Date e orari delle criticità sono mostrati in formato italiano più leggibile.
+- Rimossa dalle schede salute la sezione lunga "Controllo obbligatorio in etichetta" e il collegamento alla banca dati ministeriale.
+- Sostituito il testo ripetitivo con un promemoria breve e pratico: usare prodotti destinati all'orto domestico, seguire le istruzioni della confezione ed evitare miscele improvvisate.
+- Aggiornata la cache del service worker a orto20-v30.
+
+Nota: gli indicatori meteo sono basati su previsioni modellistiche e non sostituiscono le allerte ufficiali. Non pubblicare su Netlify finché non si decide di aggiornare l'app.

@@ -1,0 +1,11 @@
+ORTO 2.0 - VERSIONE 28
+
+Migliorata la sezione "Cosa usare nell'orto hobbistico" delle schede malattie e avversità.
+- Indicazioni più concrete per insetti succhiatori, larve, acari, lumache e malattie fungine.
+- Indicati principi attivi da valutare solo quando pertinenti (es. Bacillus thuringiensis kurstaki, sali potassici di acidi grassi, zolfo, fosfato ferrico), senza attribuire autorizzazioni automatiche.
+- Distinzione tra interventi meccanici, trattamenti fitosanitari e correttivi nutrizionali.
+- Avvertenze contro trattamenti inutili, miscele improvvisate e concimazioni alla cieca.
+- Verifica in banca dati ufficiale e in etichetta PFnPE per la singola coltura e avversità.
+- Nessun marchio, dosaggio o tempo di carenza inventato.
+
+Nota: i principi attivi citati sono indicazioni orientative da verificare. L'applicabilità dipende dall'etichetta autorizzata vigente.

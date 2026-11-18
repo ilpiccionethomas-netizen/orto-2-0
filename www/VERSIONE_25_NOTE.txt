@@ -1,0 +1,20 @@
+ORTO 2.0 - VERSIONE 25 - METEO PER COMUNE E ALLERTE INTELLIGENTI
+
+Novità:
+- Meteo indipendente dal GPS: il riferimento iniziale è Cicagna (GE).
+- Comune modificabile dalle Impostazioni e salvato sul dispositivo.
+- Geocodifica del Comune tramite servizio Open-Meteo, senza chiedere la posizione precisa.
+- Previsioni giornaliere per 7 giorni.
+- Pannello allerte per le prossime 72 ore: gelo, caldo intenso, pioggia intensa, raffiche, temporali e condizioni favorevoli a malattie fungine.
+- Riepilogo agronomico giornaliero per 7 giorni: possibili gelate, caldo, piogge abbondanti, vento e UV elevato.
+- Link alle allerte ufficiali MeteoAlarm.
+- GPS mantenuto soltanto come funzione facoltativa per i calcoli solari; non viene usato per meteo e allerte.
+
+Fonti e limiti:
+- Dati previsionali Open-Meteo. Le soglie del pannello sono indicatori orientativi per l'orto, non allerte ufficiali né misure sul posto.
+- La grandine non viene dichiarata come prevista in assenza di un dato affidabile dedicato: consultare gli avvisi ufficiali della Protezione Civile/MeteoAlarm.
+- Il sistema necessita di connessione Internet. La geocodifica seleziona un Comune italiano e, quando possibile, usa la sigla provincia per disambiguare.
+- Le altre funzioni e i dati locali della versione 24 sono conservati.
+
+
+REVISIONE: rimossa la seconda tabella delle previsioni a 7 giorni dalla scheda allerte. Le previsioni settimanali restano in un'unica sezione; la scheda allerte mostra soltanto i rischi delle prossime 72 ore.

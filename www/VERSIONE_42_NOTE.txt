@@ -1,0 +1,3 @@
+ORTO 2.0 - VERSIONE 42
+
+Home: visualizzati tre proverbi al giorno, scelti dalla raccolta del mese. Quando sono disponibili, vengono privilegiati i proverbi associati alla ricorrenza del giorno. La scelta è stabile per la data corrente.

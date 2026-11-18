@@ -1,0 +1,6 @@
+ORTO 2.0 – VERSIONE 36
+
+- Rimossa la vecchia barra di navigazione superiore duplicata.
+- Rimane la griglia compatta degli accessi rapidi, sempre disponibile in tutte le sezioni.
+- Gli accessi rapidi sono l’unico sistema di navigazione tra le pagine.
+- Aggiornata la cache del service worker a orto20-v36.
