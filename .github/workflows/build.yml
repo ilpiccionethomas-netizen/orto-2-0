@@ -17,6 +17,7 @@ jobs:
           node-version: '20'
 
       - name: Configura Java 21
+        id: setup-java
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
@@ -35,10 +36,13 @@ jobs:
           sed -i 's/<application/<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" \/>\n<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" \/>\n<application/' android/app/src/main/AndroidManifest.xml
 
       - name: Compila APK
+        env:
+          JAVA_HOME: ${{ steps.setup-java.outputs.path }}
         run: |
+          java -version
           cd android
           chmod +x gradlew
-          ./gradlew assembleDebug
+          ./gradlew assembleDebug -Dorg.gradle.java.home="$JAVA_HOME"
 
       - name: Carica APK pronto
         uses: actions/upload-artifact@v4
