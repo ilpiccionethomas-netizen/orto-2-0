@@ -1,8 +1,6 @@
-name: Compila APK Android
+name: Genera APK Orto 2.0
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -10,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Scarica il codice del repository
+      - name: Scarica i file del progetto
         uses: actions/checkout@v4
 
       - name: Configura Node.js
@@ -24,21 +22,26 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Installa dipendenze e sincronizza Capacitor
+      - name: Crea progetto Capacitor e Android
         run: |
-          npm install
-          npx cap sync android
+          rm -f www/placeholder.txt
+          npm init -y
+          npm install @capacitor/core @capacitor/cli @capacitor/android
+          npx cap init "Orto 2.0" "com.orto.app" --web-dir www
+          npx cap add android
 
-      - name: Dai permessi di esecuzione a Gradle
-        run: chmod +x android/gradlew
+      - name: Aggiungi permessi GPS per meteo
+        run: |
+          sed -i 's/<application/<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" \/>\n<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" \/>\n<application/' android/app/src/main/AndroidManifest.xml
 
-      - name: Compila APK (Debug)
+      - name: Compila APK
         run: |
           cd android
+          chmod +x gradlew
           ./gradlew assembleDebug
 
-      - name: Carica l'APK come file scaricabile
+      - name: Carica APK pronto
         uses: actions/upload-artifact@v4
         with:
-          name: Orto-2.0-APK
+          name: Orto-2.0-Android
           path: android/app/build/outputs/apk/debug/app-debug.apk
