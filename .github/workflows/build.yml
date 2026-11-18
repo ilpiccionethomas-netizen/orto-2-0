@@ -16,17 +16,17 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Configura Java 21
+      - name: Configura Java 17
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '21'
+          java-version: '17'
 
-      - name: Crea package.json e installa Capacitor
+      - name: Crea package.json e installa Capacitor 6
         run: |
           rm -f www/placeholder.txt
           npm init -y
-          npm install @capacitor/core @capacitor/cli @capacitor/android
+          npm install @capacitor/core@6 @capacitor/cli@6 @capacitor/android@6
           npx cap init "Orto 2.0" "com.orto.app" --web-dir www
           npx cap add android
 
@@ -34,9 +34,8 @@ jobs:
         run: |
           sed -i 's/<application/<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" \/>\n<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" \/>\n<application/' android/app/src/main/AndroidManifest.xml
 
-      - name: Compila APK con Java 21
+      - name: Compila APK
         run: |
-          echo "org.gradle.java.home=$JAVA_HOME_21_X64" >> android/gradle.properties
           cd android
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
