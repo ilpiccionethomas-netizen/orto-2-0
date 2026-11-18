@@ -16,13 +16,14 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Configura Java 17
+      - name: Configura Java 21
+        id: setup-java
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '21'
 
-      - name: Crea package.json e installa Capacitor 6
+      - name: Crea package.json e installa Capacitor
         run: |
           rm -f www/placeholder.txt
           npm init -y
@@ -34,8 +35,9 @@ jobs:
         run: |
           sed -i 's/<application/<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" \/>\n<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" \/>\n<application/' android/app/src/main/AndroidManifest.xml
 
-      - name: Compila APK
+      - name: Forzatura Java 21 e compilazione APK
         run: |
+          echo "org.gradle.java.home=${{ steps.setup-java.outputs.path }}" >> android/gradle.properties
           cd android
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
